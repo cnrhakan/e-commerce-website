@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 90px;
+}
+.header-container {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.header-logo-div img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.header-search {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  position: relative;
+}
+.header-search input {
+  padding: 6px;
+}
+.header-search .magnifying {
+  position: absolute;
+  right: 80px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 24px;
+}
+.header-search :not(:first-child) {
+  cursor: pointer;
+  font-size: 18px;
+}

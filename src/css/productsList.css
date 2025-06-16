@@ -1,0 +1,38 @@
+.cards {
+  margin: 48px 0;
+}
+.cards-container {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 18px;
+  margin: 0 auto;
+  padding: 12px;
+  justify-content: space-evenly;
+}
+.card {
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 16px;
+}
+.card-image-div img {
+  width: auto;
+  height: 125px;
+}
+.card-title p {
+  width: 30ch;
+  height: 8ch;
+}
+.go-detail-btn {
+  cursor: pointer;
+  padding: 8px 14px;
+  border-radius: 8px;
+}

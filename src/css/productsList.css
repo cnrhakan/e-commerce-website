@@ -1,0 +1,64 @@
+.cards {
+  margin: 48px 0 0 0;
+}
+.cards-container {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 18px;
+  margin: 0 auto;
+  padding: 12px;
+  justify-content: space-evenly;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: white;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.dark-mode .card {
+  background-color: #2d2d2d;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: rgba(99, 99, 99, 0.3) 0px 4px 12px 0px;
+}
+.dark-mode .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px 0px;
+}
+.card-image-div img {
+  width: auto;
+  height: 125px;
+}
+.card-title p {
+  width: 30ch;
+  height: 8ch;
+  color: #333;
+}
+.dark-mode .card-title p {
+  color: #fff;
+}
+.go-detail-btn {
+  background-color: rgb(218, 130, 43, 0.8);
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.go-detail-btn:hover {
+  background-color: rgb(218, 130, 43);
+}
+.dark-mode .card-price h4 {
+  color: #fff;
+}

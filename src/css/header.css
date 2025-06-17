@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+=======
+>>>>>>> d5490a096bfbe62c920b7536aa8e309f57471808
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+<<<<<<< HEAD
 #root {
   font-family: "Inter", sans-serif;
   min-height: 100vh;
@@ -25,6 +29,10 @@
 .dark-mode .header {
   background-color: #2d2d2d;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+=======
+.header {
+  height: 90px;
+>>>>>>> d5490a096bfbe62c920b7536aa8e309f57471808
 }
 .header-container {
   width: 75%;
@@ -35,18 +43,28 @@
   margin: 0 auto;
 }
 .header-logo-div img {
+<<<<<<< HEAD
   cursor: pointer;
   width: auto;
   height: 75px;
+=======
+  width: 60px;
+  height: 60px;
+>>>>>>> d5490a096bfbe62c920b7536aa8e309f57471808
   border-radius: 50%;
 }
 .header-search {
   display: flex;
+<<<<<<< HEAD
   gap: 24px;
+=======
+  gap: 16px;
+>>>>>>> d5490a096bfbe62c920b7536aa8e309f57471808
   align-items: center;
   position: relative;
 }
 .header-search input {
+<<<<<<< HEAD
   padding: 8px 12px;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -61,18 +79,29 @@
 .header-search .magnifying {
   position: absolute;
   right: 90px;
+=======
+  padding: 6px;
+}
+.header-search .magnifying {
+  position: absolute;
+  right: 80px;
+>>>>>>> d5490a096bfbe62c920b7536aa8e309f57471808
   top: 50%;
   transform: translateY(-50%);
   cursor: pointer;
   font-size: 24px;
+<<<<<<< HEAD
   color: #666;
 }
 .dark-mode .header-search .magnifying {
   color: #999;
+=======
+>>>>>>> d5490a096bfbe62c920b7536aa8e309f57471808
 }
 .header-search :not(:first-child) {
   cursor: pointer;
   font-size: 18px;
+<<<<<<< HEAD
   color: #333;
 }
 .dark-mode .header-search :not(:first-child) {
@@ -82,4 +111,6 @@
   .header-container {
     justify-content: center;
   }
+=======
+>>>>>>> d5490a096bfbe62c920b7536aa8e309f57471808
 }

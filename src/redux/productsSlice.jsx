@@ -2,8 +2,11 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 const initialState = {
   products: [],
+<<<<<<< HEAD
   inputValue: "",
   addToBasket: [],
+=======
+>>>>>>> d5490a096bfbe62c920b7536aa8e309f57471808
 };
 
 const URL = "https://fakestoreapi.com/products";
@@ -15,6 +18,7 @@ export const getProductsData = createAsyncThunk("products", async () => {
 export const productsSlice = createSlice({
   name: "products",
   initialState,
+<<<<<<< HEAD
   reducers: {
     setInputValue: (state, action) => {
       state.inputValue = action.payload;
@@ -36,6 +40,9 @@ export const productsSlice = createSlice({
       );
     },
   },
+=======
+  reducers: {},
+>>>>>>> d5490a096bfbe62c920b7536aa8e309f57471808
   extraReducers: (builder) => {
     builder.addCase(getProductsData.fulfilled, (state, action) => {
       state.products = action.payload;
@@ -45,7 +52,12 @@ export const productsSlice = createSlice({
   },
 });
 
+<<<<<<< HEAD
 export const { setInputValue, addToBasket, removeFromBasket } =
   productsSlice.actions;
+=======
+// Action creators are generated for each case reducer function
+export const {} = productsSlice.actions;
+>>>>>>> d5490a096bfbe62c920b7536aa8e309f57471808
 
 export default productsSlice.reducer;

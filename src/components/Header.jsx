@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from "react";
+=======
+import React from "react";
+>>>>>>> d5490a096bfbe62c920b7536aa8e309f57471808
 import { FaMagnifyingGlass } from "react-icons/fa6";
 import { LuShoppingBasket } from "react-icons/lu";
 import { MdOutlineWbSunny } from "react-icons/md";
 import { IoMdSunny } from "react-icons/io";
 import "../css/header.css";
+<<<<<<< HEAD
 import { Link, Outlet, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { setInputValue } from "../redux/productsSlice";
@@ -46,6 +51,25 @@ function Header() {
 
       <Outlet />
     </>
+=======
+
+function Header() {
+  return (
+    <nav className="header">
+      <div className="header-container">
+        <div className="header-logo-div">
+          <img src="/images/biradam.jpeg" alt="Logo" />
+        </div>
+        <div className="header-search">
+          <input type="text" />
+          <FaMagnifyingGlass className="magnifying" />
+          <MdOutlineWbSunny />
+          <LuShoppingBasket />
+          {/* <IoMdSunny />  */}
+        </div>
+      </div>
+    </nav>
+>>>>>>> d5490a096bfbe62c920b7536aa8e309f57471808
   );
 }
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import ProductsList from "./components/productsList";
@@ -13,6 +14,22 @@ function App() {
         <Route path="mybasket" element={<Basket />} />
       </Route>
     </Routes>
+=======
+import { useState } from "react";
+import "./App.css";
+import Header from "./components/Header";
+import ProductsList from "./components/productsList";
+import { Routes, Route } from "react-router-dom";
+
+function App() {
+  return (
+    <>
+      <Header />
+      <Routes>
+        <Route path="/" element={<ProductsList />} />
+      </Routes>
+    </>
+>>>>>>> d5490a096bfbe62c920b7536aa8e309f57471808
   );
 }
 

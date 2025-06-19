@@ -1,12 +1,34 @@
-# React + Vite
+# 🛒 React E-Commerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive e-commerce web application built with **React**. This project fetches real product data from [FakeStoreAPI](https://fakestoreapi.com/) using **Axios**, and includes key features such as product filtering, dark mode, cart management, and routing.
 
-Currently, two official plugins are available:
+## 🎯 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This e-commerce site demonstrates a realistic shopping experience with features commonly found in commercial platforms. It serves as a strong frontend development showcase using React and ecosystem tools.
 
-## Expanding the ESLint configuration
+## ⚙️ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📦 **Product List**: Fetches product data from FakeStoreAPI
+- 🔍 **Category Filter**: Filter products by category
+- 🌓 **Dark Mode**: Toggle between light and dark themes
+- 🛒 **Shopping Cart**: Add/remove items from the cart, with real-time totals
+- 🔁 **React Router**: Page navigation for home, products, and cart
+- 🧠 **Redux Toolkit**: Global state management for cart 
+- 📱 **Responsive Design**: Works smoothly on mobile, tablet, and desktop
+
+## 🧪 Technologies Used
+
+- **React**
+- **React Router**
+- **Redux Toolkit**
+- **Axios**
+- **Vanilla CSS**
+
+## 🔗 Live Demo
+
+Try the app on Netlify or your preferred deployment platform:  
+👉 [Live Demo](https://e-commerce-website-cnrhakan.netlify.app/)
+
+## 🌐 Contact  
+[LinkedIn](https://www.linkedin.com/in/hakan-cinar/) 
+

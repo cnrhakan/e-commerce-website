@@ -12,13 +12,9 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
     "axios": "^1.10.0",
-<<<<<<< HEAD
     "bootstrap": "^5.3.7",
     "react": "^19.1.0",
     "react-bootstrap": "^2.10.10",
-=======
-    "react": "^19.1.0",
->>>>>>> d5490a096bfbe62c920b7536aa8e309f57471808
     "react-dom": "^19.1.0",
     "react-icons": "^5.5.0",
     "react-redux": "^9.2.0",
